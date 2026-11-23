@@ -8,6 +8,11 @@ const server = new MCPServer({
   description: "An MCP server built with mcp-use",
 });
 
+// Serve the subdomain-takeover proof file at the site root.
+server.get("/proof-wiru-20261122-x7k2.txt", (c) =>
+  c.text("proof of control - security research by wiru - 2026-11-23"),
+);
+
 export const fetchWeather = server.tool(
   {
     name: "fetch-weather",
