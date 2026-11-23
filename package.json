@@ -1,0 +1,19 @@
+{
+  "name": "foxy-mcp",
+  "version": "1.0.0",
+  "description": "Minimal MCP server deployed on Manufact for mcp.foxy.io",
+  "type": "module",
+  "scripts": {
+    "dev": "mcp-use dev",
+    "start": "mcp-use start",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "mcp-use": "^2.12.9",
+    "zod": "^4.6.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
