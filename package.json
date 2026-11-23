@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "mcp-use dev",
     "start": "mcp-use start",
-    "build": "tsc"
+    "build": "mcp-use build"
   },
   "dependencies": {
     "mcp-use": "^2.12.9",
